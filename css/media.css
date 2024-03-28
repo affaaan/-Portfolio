@@ -1,0 +1,381 @@
+/* extra large screen */
+@media(max-width:1200px){
+    .btn {
+        padding: 15px 35px;
+    }
+    .image_wraper ul li:nth-child(2) {
+        right: -17px;
+        top: 32px;
+    }
+    .image_wraper ul li:nth-child(4) {
+        right: -14px;
+    }
+    footer .socials{
+        margin-bottom: 35px;
+        margin-top:35px;
+    }
+}
+
+/* Large screen */
+@media(max-width:991px){
+    /* header section */
+    .navbar-toggler {
+        font-size: 25px;
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .hero_section {
+        text-align: center;
+        min-height: 100vh;
+    }
+    .section_padding {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    .text_animation {
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%,-50%);
+    }
+    .btn {
+        padding: 14px 18px;
+        font-size: 15px;
+    }
+    .contact_info {
+        justify-content: center;
+    }
+    .image_wraper ul{
+        padding: 0;
+    }
+    .contact_info ul{
+        padding-left: 0px;
+    }
+    .image_wraper {
+        margin-top: 50px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .image_wraper ul li:nth-child(2) {
+        right: 95px;
+    }
+    .image_wraper ul li:nth-child(4) {
+        right: 95px;
+    }
+    .image_wraper img {
+        width: 50%;
+    }
+    .element_1 {
+        left: 5.7%;
+    }
+    .element_2 {
+        right: 6.2%;
+    }
+    .element_3 {
+        right: 5.7%;
+    }
+    .element_4 {
+        top: 34%;
+        z-index: -1;
+    }
+    .element_5 {
+        left: 6.2%;
+    }
+    /* logo section */
+    .logo_section {
+        padding: 60px 0;
+    }
+    /* my world section */
+    .my_world_item {
+        padding: 15px;
+    }
+    .my_world_item i {
+        font-size: 33px;
+    }
+    .my_world_item h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .my_world_item p {
+        font-size: 16px;
+    }
+    /* about section */
+    .about_elem h2 {
+        font-size: 39px;
+        margin-bottom: 10px;
+    }
+    .about_elem p {
+        font-size: 16px;
+    }
+    .about_elem .info .btn {
+        margin-top: 0px;
+    }
+    /* skill section */
+    .skill_section h2 {
+        font-size: 35px;
+        margin-bottom: 16px;
+    }
+    .skill_section p {
+        font-size: 18px;
+    }
+    .skill_section h4 {
+        margin-bottom: 10px;
+    }
+    .grid .items .items_info {
+        padding: 10px;
+    }
+    /* contact section */
+    .contact_section .contact address {
+        font-size: 16px;
+    }
+    .contact_section .icon_box {
+        font-size: 22px;
+        height: 50px;
+        width: 50px;
+    }
+    .contact_section .contact a {
+        font-size: 15px;
+    }
+    .map {
+        padding-right: 0px;
+    }
+    /* footer section */
+    
+
+
+}
+
+/* medium screen */
+@media(max-width:767px){
+    .navbar {
+        padding: 10px 0px;
+    }
+    .section_padding {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    .image_wraper {
+        margin-top: 50px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .image_wraper ul li{
+        position: static;
+        font-size: 40px;
+    }
+    .design_elements{
+        display: none;
+    }
+    /* logo section */
+    .carousel_elem div img {
+        width: 90px !important;
+    }
+    /* logo section ends */
+     /* my world section starts */
+        .section_title {
+            width: 80%;
+            margin-bottom: 40px;
+        }
+        .section_title h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .section_title p {
+            font-size: 1.2rem !important;
+        }
+        .my_world_item {
+            margin-bottom: 40px;
+        }
+    /* about section starts */
+    .illustration {
+        padding: 0 0 30px 0;
+    }
+    .about_elem .info .btn {
+        margin-bottom: 20px;
+    }
+    /* skill section */
+    .grid .items .items_info {
+        padding: 36px;
+    }
+
+    /* portfolio section */
+    .portfolio_section .section_title {
+        margin-bottom: 30px;
+    }
+    /* contact section starts */
+    .contact_section .contact{
+        margin-bottom: 20px;
+    }
+    .map {
+        padding-top: 40px;
+    }
+    /* footer starts */
+    footer{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    footer p {
+        margin-top: 0;
+        font-size: 16px;
+    }
+    footer .socials {
+        margin: 0;
+    }
+    .terms_conditions p,.terms_conditions a{
+        color: #b0aac0;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 5px
+    }
+    
+
+}
+/* small Screen */
+@media (max-width:575px){
+    /* header starts */
+    .navbar {
+        padding: 5px 0px;
+    }
+    .section_padding {
+        padding-bottom: 25px;
+    }
+    .hero_left h1 {
+        font-size: 50px;
+    }
+    .hero_left h2 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .hero_left p {
+        font-size: 16px;
+    }
+    .text_animation h2 {
+        font-size: 30px;
+    }
+    .btn {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+    .image_wraper img {
+        width: 65%;
+    }
+    .contact_info li a {
+        font-size: 20px;
+    }
+    .image_wraper ul li{
+       font-size: 30px;
+    }
+    /* logo section starts */
+    .logo_section {
+        padding: 40px 0;
+    }
+    .carousel_elem div img {
+        width: 70px !important;
+    }
+    .carousel_elem div h3 {
+        font-size: 22px;
+    }
+    /* my world section starts */
+    .section_title h2 {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    .section_title p {
+        font-size: 1rem !important;
+    }
+    .section_title h2::before, .section_title h2::after {
+        top: 1px;
+    }
+    .my_world_item {
+        padding: 18px;
+        margin-bottom: 10px;
+    }
+    .my_world_item::before {
+        display: none;
+    }
+    .my_world_item i {
+        font-size: 32px;
+    }
+    .my_world_item h3 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .my_world_item p {
+        font-size: 14px;
+    }
+    /* about section starts */
+    .illustration {
+        padding: 0 20px 30px 20px;
+    }
+    .about_elem h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .about_elem p {
+        font-size: 16px;
+    }
+    .about_elem .info {
+        margin-top: 25px;
+    }
+    .element_7 {
+        position: absolute;
+        top: -9%;
+        left: 75.7%;
+    }
+    /* skill section starts */
+    .skill_section h2 {
+        font-size: 24px;
+    }
+    .skill_section p {
+        font-size: 16px;
+    }
+
+    .button-group ul li {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    /* contact section starts */
+    .contact_section .icon_box {
+        font-size: 16px;
+        height: 35px;
+        width: 35px;
+        margin-right: 10px;
+    }
+    .contact_section .contact h4 {
+        font-size: 20px;
+    }
+    .contact_section .contact{
+        margin-bottom: 10px;
+    }
+    .contact_form h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* footer starts here */
+    .element_9 {
+        display: none;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+    footer .socials i {
+        font-size: 20px;
+    }
+    .terms_conditions p,.terms_conditions a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:425px){
+    .image_wraper img {
+        width: 80%;
+    }
+    .section_title h2 {
+        font-size: 17px;
+        margin-bottom: 14px;
+    }
+}
